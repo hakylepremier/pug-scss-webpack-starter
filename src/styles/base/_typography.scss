@@ -1,0 +1,14 @@
+/** @format */
+
+%title-2 {
+	font-size: 2rem;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+	@extend %title-2;
+}
+
+.para2 {
+	color: green;
+}

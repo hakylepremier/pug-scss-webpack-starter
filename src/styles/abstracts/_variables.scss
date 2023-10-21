@@ -1,0 +1,19 @@
+/** @format */
+
+$color-white: #fff;
+
+$font-poppins: "Poppins";
+
+$z-indexes: ("navigation", "content");
+
+$breakpoints: (
+	"medium": (
+		min-width: 800px,
+	),
+	"large": (
+		min-width: 1000px,
+	),
+	"huge": (
+		min-width: 1200px,
+	),
+);

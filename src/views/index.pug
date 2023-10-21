@@ -1,0 +1,20 @@
+block variables
+
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    base(href="/")
+    meta(name="description", content="This is a boilerplate page for pug and scss based project")
+    style p{color: red}
+    link(rel="stylesheet", href=require('../styles/index.scss'))
+    title Pug & Scss
+
+  body 
+    h1 Hello World, welcome to my pug and scss boilerplate.
+    p#para1 Js not working, there is something wrong with the js implementation in webpack and must be checked.
+    p.para2 If css is working, this paragraph must be green not red.
+
+    script(src=require('../js/index.js')) 
+    
